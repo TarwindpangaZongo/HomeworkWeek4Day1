@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvJavaThreadResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvAsyncTaskResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvLooperResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnStartJavaThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start the Java Thread"
+        android:onClick="onClicl"/>
+
+    <Button
+        android:id="@+id/btnStartAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start The AsyncTask"
+        android:onClick="onClicl" />
+
+    <Button
+        android:id="@+id/btnStartLooper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start The Looper"
+        android:onClick="onClicl"/>
+
+</LinearLayout>
