@@ -12,3 +12,12 @@
 3. Setup a async task that will reverse the string (Do not use String.reverse)
 4. Setup a looper that will send back a message that will report any duplicate chars in the String
 5. Link the UI elements to the appropriate multithreading method
+
+
+ScreenShot1
+![](Screenshots/Screenshot1.jpg)
+
+ScreenShot2
+![](Screenshots/Screenshot2.jpg)
+       
+      
